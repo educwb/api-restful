@@ -20,3 +20,5 @@ ________________________________________________________________
 git status
 git add .
 git commit -m "adicionando model e controller de produtos"
+git push
+git log
