@@ -5,3 +5,18 @@ npm install nodemon --save-dev
 
 POSTMAN
 https://www.postman.com/
+
+git status
+git add .
+git commit -m "estrutura inicial do projeto"
+git push --set-upstream origin master
+----------------------------------------------------------------
+VERBOS HTTP (4 TIPOS)
+- GET - obter dados
+- POST - client envia / server recebe dados
+- PUT - atualizar dados
+- DELETE - remover dados
+________________________________________________________________
+git status
+git add .
+git commit -m "adicionando model e controller de produtos"
