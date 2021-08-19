@@ -34,3 +34,9 @@ git add .
 git commit -m "adicionando metodo POST"
 git push
 git log
+________________________________________________________________
+git status
+git add .
+git commit -m "adicionando metodo PUT"
+git push
+git log

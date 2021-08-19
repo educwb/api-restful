@@ -36,7 +36,25 @@ async function post(req, res) {
   }) // resposta para api que deu tudo certo
 }
 
+async function put(req, res) {
+  const { id } = req.params
+
+  const product = await ProductsModel.findOneAndUpdate({ _id: id }, req.body, { new: true })
+  
+  /* uma das formas que alteram o produto
+  // mas não permite retornar o produto já alterado
+  const product = await ProductsModel.findOne({ _id: id })
+  await product.updateOne(req.body)
+  */ 
+
+  res.send({
+    message: 'success',
+    product
+  }) 
+}
+
 module.exports = {
   get,
-  post
+  post,
+  put
 }
