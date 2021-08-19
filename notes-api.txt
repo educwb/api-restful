@@ -1,0 +1,7 @@
+npm init -y
+git init 
+npm install express mongoose
+npm install nodemon --save-dev
+
+POSTMAN
+https://www.postman.com/
