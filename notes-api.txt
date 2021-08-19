@@ -22,3 +22,15 @@ git add .
 git commit -m "adicionando model e controller de produtos"
 git push
 git log
+________________________________________________________________
+git status
+git add .
+git commit -m "adicionando metodo GET"
+git push
+git log
+________________________________________________________________
+git status
+git add .
+git commit -m "adicionando metodo POST"
+git push
+git log
