@@ -46,3 +46,5 @@ git add .
 git commit -m "adicionando metodo DELETE"
 git push
 git log
+________________________________________________________________
+npm install cors
